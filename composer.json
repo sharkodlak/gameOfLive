@@ -1,0 +1,25 @@
+{
+    "require": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "authors": [
+		{
+			"name": "Pavel Štětina",
+			"email": "github@shark.kom.cz",
+			"role": "Architect/Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Sharkodlak\\GameOfLive\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Sharkodlak\\GameOfLive\\": "tests/"
+		}
+	},
+  "scripts": {
+    "test": "php vendor/bin/phpunit tests"
+  }
+}
